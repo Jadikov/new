@@ -1,13 +1,12 @@
 import java.time.LocalDate;
 import java.util.List;
 
-public class Stu<dent {
+public class Student {
     private String ism;
     private String familiya;
     private LocalDate birthdate;
     private List<String> hobbies;
 
-    // Konstruktor
     public Student(String ism, String familiya, LocalDate birthdate, List<String> hobbies) {
         this.ism = ism;
         this.familiya = familiya;
@@ -15,7 +14,6 @@ public class Stu<dent {
         this.hobbies = hobbies;
     }
 
-    // Getter va Setterlar
     public String getIsm() {
         return ism;
     }
